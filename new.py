@@ -1,6 +1,6 @@
-#programme to calculate interest rate
-p=float(input("enter the principal amout: "))
-r=float(input("enter the interest rate: "))
-t=int(input("enter time : "))
-si=(p*r*t)/100
-print("the simple interest is :" ,si)
+name=input("enter A name:- ")
+name_title=name.title()
+space_index=name_title.index(" ")
+initials=name_title[0]+name_title[space_index+1]
+print("initials are:- ",initials)
+
